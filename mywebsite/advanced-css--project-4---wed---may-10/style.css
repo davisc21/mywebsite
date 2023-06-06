@@ -1,0 +1,181 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "main main main"
+    "footer footer footer"
+  ;
+  justify-content: center;
+}
+
+.whole-page{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 200px) {
+ 
+  .whole-page {
+    display: flex;
+    max-width: 100%;
+    padding: 0 10px; 
+  }
+}
+
+.header {
+  grid-area: header;
+}
+
+
+.nav-link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.btn{
+  width: 15%;
+  margin: 0 5px;
+}
+
+.btn:hover{
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+
+.main-container{
+   display: flex;
+   flex-direction: row;
+   background-color: ;
+   color: white;
+   text-align: center;
+   padding-left: 30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   opacity: 0;
+   animation: fade-in 10s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.title{
+  padding-left: 90px;
+  padding-top: 220px;
+  font-size: 20pt;
+}
+
+.profile-image{
+  margin-top: 1px;
+  padding-right: 5px;
+  width: 50%;
+  opacity: 50%;
+}
+
+
+.footer__content {
+  width: 100%;
+  padding-block: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.footer {
+  grid-area: footer;
+}
+
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+
+.image{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ 
+}
+
+
+.main-container{
+   display: flex;
+   flex-direction: row;
+   background-color: ;
+   color: white;
+   text-align: right;
+   padding-left: 30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   opacity: 0;
+   animation: fade-in 10s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.title{
+  padding-left: 90px;
+  padding-top: 220px;
+  font-size: 20pt;
+}
+
+.profile-image{
+  margin-top: 1px;
+  padding-right: 5px;
+  width: 50%;
+  opacity: 50%;
+}
+
+
+.footer__content {
+  width: 100%;
+  padding-block: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.footer {
+  grid-area: footer;
+}
+
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+
+div{
+  align:right
+}
+
+
+
+
+

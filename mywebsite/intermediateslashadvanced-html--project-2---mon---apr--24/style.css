@@ -1,0 +1,25 @@
+body{
+  color: silver;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+}
+
+h4, h6{
+  color:rgb(35, 10, 105);
+}
+div{
+  padding-right: 10;
+  padding-left: 10;
+  background-color: rgb(35, 10, 105);
+}
+
+label{
+  color:silver;
+}
+
+img {
+  border-radius: 8px;
+}
