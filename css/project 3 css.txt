@@ -1,0 +1,66 @@
+body{
+  color: white;
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  overflow:;
+}
+
+h4, h6,p {
+  font-family: verdana;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+h2{
+  background-color: rgb(2, 2, 54);
+  border:2px solid silver;
+  padding:5px;
+  font-family: 'Roboto', sans-serif;
+  width: auto;
+  text-align: center;
+}
+
+h3{color:rgb(2, 2, 54)}
+
+p{
+  background-color: rgb(2, 2, 54)
+}
+
+div{
+  text-indent: 50px;
+  width:auto;
+  padding-right:30;
+  padding-left: 30;
+   ;
+  border: 15px sliver;
+  margin:20px
+  padding:10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+label{
+  color:silver;
+}
+
+img {
+  border-radius: 5px ;
+   box-shadow: 5px 5px gray;
+ }
+
+
+main{
+  display: grid;
+  grid-template-areas: 
+  "header header";
+  "left right";
+  "bottom left bottom right";
+  grid-template-colums: 1fr fr 1fr;
+  
+}
+
+header{ grid-area: header;}
+left{ grid-area:left;}
+right{grid-area:right;}
+bottom left{grid-area: bottom left;}
+bottom right{grid-area: bottom right;}
