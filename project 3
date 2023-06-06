@@ -88,7 +88,7 @@ bottom right{grid-area: bottom right;}
     
   <div>
     <p>Welcome,</p>
-    <p>I was born in Belleville, IL in 1988 but raised in East St. Louis, IL. I'm a Class of 2006 graduate of Cahokia High School. I have a beautiful wife of almost 8 years and I'm a proud father of a handsome 2 year old. </p>
+    <p><span style="color:red:">I was born in <strong>Belleville</strong>, IL in 1988 but raised in East St. Louis, IL.</span> I'm a Class of 2006 graduate of Cahokia High School. I have a beautiful wife of almost 8 years and I'm a proud father of a handsome 2 year old. </p>
   </div>
 
   <div>
